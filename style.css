@@ -1,0 +1,155 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+/* Header styles */
+header {
+    background-color: #5b430b;
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 48px;
+    color: #fff;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p {
+    font-size: 18px;
+    /* color: #000000; */
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 2rem;
+}
+
+/* Navigation styles */
+nav {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+
+ul li a:hover {
+    color: #ccc;
+}
+
+/* Home section styles */
+#home {
+    min-height: 80vh;
+    background-image: url(image1.jpg);
+    background-size: cover;
+}
+
+/* About section styles */
+#about {
+    min-height: 40vh;
+    background-color: #5b430b;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #fff;
+}
+
+/* Portfolio section styles */
+#portfolio {
+    min-height: 80vh;
+    background-color: #f2f2f2;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    margin-top: 5rem;
+}
+
+/* Contact section styles */
+#contact {
+    min-height: 80vh;
+    background-color: #5b430b;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #fff;
+}
+
+form {
+    display: grid;
+    gap: 20px;
+}
+
+label,
+input,
+textarea {
+    width: 100%;
+    height: 3rem;
+    border-radius: 0.3rem;
+}
+
+input[type="submit"] {
+    background-color: #fff;
+    color: #5b430b;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+    color: #fff;
+}
+
+/* Footer styles */
+footer {
+    background-color: #ffffff;
+    color: #5b430b;
+    padding: 20px;
+    text-align: center;
+}
