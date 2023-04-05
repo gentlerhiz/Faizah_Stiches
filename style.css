@@ -74,14 +74,14 @@ ul li a:hover {
 
 /* Home section styles */
 #home {
-    min-height: 80vh;
+    min-height: 70vh;
     background-image: url(image1.jpg);
     background-size: cover;
 }
 
 /* About section styles */
 #about {
-    min-height: 40vh;
+    height: auto;
     background-color: #5b430b;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -90,7 +90,7 @@ ul li a:hover {
 
 /* Portfolio section styles */
 #portfolio {
-    min-height: 80vh;
+    height: auto;
     background-color: #f2f2f2;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -111,7 +111,7 @@ ul li a:hover {
 
 /* Contact section styles */
 #contact {
-    min-height: 80vh;
+    height: auto;
     background-color: #5b430b;
     padding-top: 80px;
     padding-bottom: 80px;
